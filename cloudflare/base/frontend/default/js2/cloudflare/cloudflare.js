@@ -62,7 +62,7 @@ var signup_to_cf = function() {
 
     // build the call
 	var email = YAHOO.util.Dom.get("USER_email").value;
-	var user = YAHOO.util.Dom.get("USER_user").value;
+	var user = YAHOO.util.Dom.get("USER_email").value;
 	var api2_call = {
 		"cpanel_jsonapi_version" : 2,
 		"cpanel_jsonapi_module" : "CloudFlare",
@@ -82,7 +82,7 @@ var signup_to_cf = function() {
                     YAHOO.util.Dom.get("add_USER_record_status").innerHTML = "";
 					CPANEL.widgets.status_bar("add_USER_status_bar", "error", CPANEL.lang.Error, data.cpanelresult.error);
 				}
-                else if (data.cpanelresult.data[0].result == 'success') {
+            else if (data.cpanelresult.data[0].result == 'success') {
 
                     signup_welcome = get_lang_string('signup_welcome');
                     signup_info = get_lang_string('signup_info', {email: email});

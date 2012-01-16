@@ -174,7 +174,6 @@ CloudFlare accelerates and protects any website online. On average, a website on
 <li>Note: This service is a beta collaboration between CloudFlare and [% base_domains_result.0.hoster %]. We encourage you to send any bug reports to support@cloudflare.com.
 </ul>
 
-<input type="hidden" id="USER_email" name="USER_email" value="[% CPANEL.CPDATA.CONTACTEMAIL %]" />
 <input type="hidden" id="USER_user" name="USER_user" value="[% CPANEL.CPDATA.USER %]" />
 
 <h4>Sign up for CloudFlare now</h4>
@@ -186,7 +185,7 @@ CloudFlare accelerates and protects any website online. On average, a website on
 		  <td class="col2"><input class="input_text" type="text" id="USER_email" value="[% CPANEL.CPDATA.CONTACTEMAIL %]" /></td>
 		  <td><div id="USER_email_error"></div></td>
 	</tr>
-	<tr id="cf_pass_noshow">
+	<tr>
           <td class="col1">Password: </td>
           <td class="col2"><input class="input_text" type="password" id="USER_pass"></td>
 	</tr>
