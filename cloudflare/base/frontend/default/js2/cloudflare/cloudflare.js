@@ -29,7 +29,7 @@ var CF_LANG = {
 
     'signup_welcome' : "Welcome to CloudFlare",
 
-    'signup_info' : "Generate a CloudFlare password <a href=\"https://www.cloudflare.com/forgot-password.html\" target=\"_blank\">here</a>. Your CloudFlare email is curently set to {email}. Click <a href=\"\">here</a> to continue.",
+    'signup_info' : "Your CloudFlare email is curently set to {email}. Click <a href=\"\">here</a> to continue.",
 
     'tooltip_zone_cf_off' : "CloudFlare is currently off. Click to enable",
 
